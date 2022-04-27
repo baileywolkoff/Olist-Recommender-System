@@ -13,6 +13,20 @@ This data came as a set of muiltiple CSV files, each being linked to one another
 
 ![](./assets/schema.png)
 
+The Files used are:
+1. customers_dataset.csv
+1. geolocation_dataset.csv
+1. order_item_dataset.csv
+1. order_payments_dataset.csv
+1. order_reviews.csv
+1. orders_dataset.csv
+1. products_dataset.csv
+1. sellers_dataset.csv
+1. product_category_name_translation.csv
+
+## Ethical Concerns
+
+The Data used unidentifiable keys to protect customer and seller privacy. It should however be noted that a recommendation system can have concerns, as it may suggest a product for a user that is deemed inappropriate. This is currently unavoidable as I do not have information on the user, or the actual product name. I am also missing a lot of information on customers, and only have the rough location (City) from which they placed their order. 
 
 ## References
 * Big thank you to [Yohan Jeong](https://towardsdatascience.com/item-based-collaborative-filtering-in-python-91f747200fab) who's article on item based collabrotive filtering I followed very closely for my preliminary model.
